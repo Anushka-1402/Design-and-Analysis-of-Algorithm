@@ -36,7 +36,7 @@ Code 2 : Implementation using inbuilt Queue Interface in Java<br>
 
 
 
-<h2> TEST CASES </h2>
+<h3> TEST CASES </h3>
 
 INPUT : 
 
