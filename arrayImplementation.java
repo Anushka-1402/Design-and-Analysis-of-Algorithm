@@ -2,7 +2,6 @@
 
 // Using Arrays
 
-
 class PossibleEqualMaxSum {
 	
 	public static int maxSum(int queue1[], int queue2[], int queue3[], int n1, int n2, int n3)
@@ -48,14 +47,15 @@ class PossibleEqualMaxSum {
 	public static void main(String[] args)
 	{
 		int queue1[] = {8, 5, 3};
-        int queue2[] = {6, 9, 4, 2, 2};
-        int queue3[] = {3, 2, 1, 2};
+        	int queue2[] = {6, 9, 4, 2, 2};
+        	int queue3[] = {3, 2, 1, 2};
 		
 		int n1 = queue1.length;
 		int n2 = queue2.length;
 		int n3 = queue3.length;
 		
 		System.out.println("Possible Equal Maximum Sum: "+maxSum(queue1, queue2, queue3, n1, n2, n3));
+		
 	}
 }
 
