@@ -4,7 +4,6 @@
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.*;
 
 class PossibleEqualMaxSum {
 	
@@ -24,7 +23,7 @@ class PossibleEqualMaxSum {
 	for (Object i:queue3)
 		sum3 += (Integer)i;
 	
-    // logic
+        // logic
 	while (true)
 	{
 		// if any queue is empty
@@ -37,7 +36,7 @@ class PossibleEqualMaxSum {
 		
 		// finding the queue with maximum sum and removing its front element
 		if (sum1 >= sum2 && sum1 >= sum3)
-            sum1 -= (Integer)queue1.poll();
+            		sum1 -= (Integer)queue1.poll();
 		else if (sum2 >= sum1 && sum2 >= sum3)
 			sum2 -= (Integer)queue2.poll();
 		else if (sum3 >= sum2 && sum3 >= sum1)
@@ -61,8 +60,8 @@ class PossibleEqualMaxSum {
         queue2.add(6);
         queue2.add(9);
         queue2.add(4);
-		queue2.add(2);
-		queue2.add(2);
+	queue2.add(2);
+	queue2.add(2);
 
         //initializing queue 3
         queue3.add(3);
@@ -70,7 +69,8 @@ class PossibleEqualMaxSum {
         queue3.add(1);
         queue3.add(2);
 
-		System.out.println("Possible Equal Maximum Sum: "+maxSum(queue1, queue2, queue3));
+	System.out.println("Possible Equal Maximum Sum: "+maxSum(queue1, queue2, queue3));
+		
 	}
 }
 
