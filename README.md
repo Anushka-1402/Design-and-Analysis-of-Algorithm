@@ -17,7 +17,7 @@ Constraint : <br>
   Removal is permitted from top of stack. <br>
 
 Implementation: <br>
-Using queue.<br>
+  Using queue.<br>
 <ul>
 <li> 1st value of input will be front of the queue (analogous to Top of Stack) </li>
 <li> then values will be added to the rear of the queue </li>
@@ -43,7 +43,6 @@ INPUT :
 Stack 1 : 8 5 3 <br>
 Stack 2 : 6 9 4 2 2 <br>
 Stack 3 : 3 2 1 2 <br>
-<br>
 
 OUTUT <br>
 Possible Equal Maximum Sum : 8<br>
