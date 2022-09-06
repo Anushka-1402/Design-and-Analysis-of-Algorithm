@@ -44,6 +44,6 @@ Stack 1 : 8 5 3 <br>
 Stack 2 : 6 9 4 2 2 <br>
 Stack 3 : 3 2 1 2 <br>
 
-OUTUT <br>
+OUTPUT : <br>
 Possible Equal Maximum Sum : 8<br>
 
