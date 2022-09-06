@@ -31,8 +31,9 @@ Code 2 : Implementation using inbuilt Queue Interface in Java<br>
 <h3>Algorithm :</h3>
       - Take input for all 3 stacks in a queue, calculate and store sum of all 3 queue.<br>
       - Check if sum of all 3 queue is equal, return the sum.<br>
+      - If any of the queue becomes empty, then Possible maximum sum is 0. Return 0.<br>
       - Otherwise, pop the front element of queue having maximum sum, and update sum for it.<br>
-      - Repeat above steps, until any 1 of the queue becomes empty, then Possible maximum sum is 0. Return 0. Exit.<br>
+      - Repeat above steps, until sum of all 3 queue gets equal or any of the queue becomes empty. Exit.<br>
 
 
 
