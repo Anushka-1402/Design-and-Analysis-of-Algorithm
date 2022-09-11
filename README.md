@@ -35,16 +35,33 @@ Code 2 : Implementation using inbuilt Queue Interface in Java<br>
       - Otherwise, pop the front element of queue having maximum sum, and update sum for it.<br>
       - Repeat above steps, until sum of all 3 queue gets equal or any of the queue becomes empty. Exit.<br>
 
-
+<hr>
 
 <h3> TEST CASES </h3>
 
-INPUT : 
-
+<h5> INPUT 1 : </h5> 
 Stack 1 : 8 5 3 <br>
 Stack 2 : 6 9 4 2 2 <br>
 Stack 3 : 3 2 1 2 <br>
 
-OUTPUT : <br>
+<h5> OUTPUT 1 : </h5>
 Possible Equal Maximum Sum : 8<br>
+
+
+<h5> INPUT 2 : </h5>
+Stack 1 : 9 7 5 3 1 4 <br>
+Stack 2 : 4 3 2 8 1 <br>
+Stack 3 : 5 3 2 1 <br>
+
+<h5> OUTPUT 2 : </h5>
+Possible Equal Maximum Sum : 0<br>
+
+
+<h5> INPUT 3 : </h5>
+Stack 1 : 9 1 4 2 <br>
+Stack 2 : 3 6 1 <br>
+Stack 3 : 1 2 5 <br>
+
+<h5> OUTPUT 3 : </h5>
+Possible Equal Maximum Sum : 7<br>
 
